@@ -27,7 +27,7 @@ subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", header=FALSE
 
 
 # now read in the "Y_test" file
-ytest <- read.table("UCI HAR Dataset/test/Y_test.txt", header=FALSE)
+ytest <- read.table("UCI HAR Dataset/test/y_test.txt", header=FALSE)
 dim(ytest)  # 2947 rows of 1 variable
 summary(ytest)  # min 1, max 6:
 # so this corresponds to the activities detailed in the "activity labels" file
@@ -51,7 +51,7 @@ names(test_all)[1:2] <- c("subject", "activity")
 # on to the training file! ----
 
 # read in the "training" file
-training <- read.table("UCI HAR Dataset/train/X_train.txt", header = FALSE)
+training <- read.table("UCI HAR Dataset/train/y_train.txt", header = FALSE)
 
 # assign the same names as above
 names(training) <- testnames$V2

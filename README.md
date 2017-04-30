@@ -2,7 +2,7 @@
 Data for the project were downloaded from:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The "UCI HAR Data" folder was extracted into the working directory.
+The "UCI HAR Dataset" folder was extracted into the working directory.
 
 The script "run_analysis.R" pulls out the data files needed to complete the course project. It:
 1. imports several tables
