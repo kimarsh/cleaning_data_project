@@ -23,7 +23,7 @@ The script "run_analysis.R" pulls out the data files needed to complete the cour
 		
 		iii. y_train.txt: contains the list of activities in the test dataset. Each row in this file corresponds to one row in the X_train file. Activities are numbered from 1-6 and stand for: 1-walking; 2-walking_upstairs; 3-walking_downstairs; 4-sitting; 5-standing; 6-laying.
 	
-	c. from the main "UCI HAR data" folder:
+	c. from the main "UCI HAR Dataset" folder:
 		
 		i. features.txt: contains the list of variable names measured during the original research. There are 561 rows in this file, which correspond to the 561 columns in each of the X_test and X_train files. This file was used to assign variable names to the imported datasets.
 		
